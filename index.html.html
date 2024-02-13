@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Times New Roman, sans-serif;
+        }
+        #titulo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #titulo {
+            font-size: 30px;
+            color: darkgreen;
+            text-align: center;
+            border: 2px solid darkgreen;
+            padding: 10px;
+            margin-bottom: 20px;
+	    margin-top: 30px;
+        }
+        .link-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .link-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px;
+        }
+        .link {
+            background-color: darkgreen;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid darkgreen;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .link a {
+            color: white;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .alert {
+            font-size: 24px;
+            color: red;
+            margin-top: 20px; /* Espaçamento superior para o alerta */
+        }
+        /* Estilo para a imagem */
+        .logo {
+            max-width: 180px; /* Defina o tamanho desejado para a imagem */
+        }
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <div class="link-wrapper">
+            <a class="link" href="#">O que são Rins-Policísticos?<br>(ADKPD)</a>
+            <a class="link" href="#">Quais os principais sintomas?</a>
+            <a class="link" href="#">Quais os principais tratamentos?</a>
+            <a class="link" href="#">Quais médicos consultar?</a>
+            <a class="link" href="#">Relatos que podem te ajudar</a>
+            <a class="link" href="#">Exercícios Físicos</a>
+        </div>
+        <div id="titulo-container">
+            <img class="logo" src="adpkd.png" alt="Logo">
+            <div id="titulo">ADPKD</div>
+        </div>
+        <div class="link-wrapper">
+            <a class="link" href="#">ADPKD tem cura?</a>
+            <a class="link" href="#">SAÚDE ALIMENTAR</a>
+            <a class="link" href="#">O básico sobre TOLVAPTAN</a>
+            <a class="link" href="#">Sites de referência</a>
+            <a class="link" href="#">Quem somos?</a>
+            <a class="link" href="#">Dicionário dos Rins-Policísticos</a>
+        </div>
+    </div>
+    <div class="alert">Atenção: Este é um site informativo e<br> não deve substituir a consulta médica</div>
+</body>
+</html>
